@@ -1,22 +1,27 @@
 .homepage {
-    margin: 16px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .image-section img{
     width: 100%;
+    border-radius: 13px;
 }
 .navbar1 {
     align-items: center;
     display: flex;
 }
+
 .navbar2 {
     margin-top: 23px;
+    display: flex;
 }
 .navbar2 a {
-    font-size: 19px;
+    font-size: 17px;
     margin-left: 19px;
-    color: #a57878;
+    color: #4a4848;
 }
+
 
 .store-system {
     align-items: center;
@@ -24,10 +29,12 @@
 }
 .image-system img{
     width: 100%;
+    border-radius: 10px;
 }
 .lifestyle-system img {
     width: 100%;
     border: 1px solid #e1dddd;
+    border-radius: 10px;
 }
 .sticker-photo {
     background-image: url(https://cdn.stores.ecom.yougotagift.com/media/images/configurations/banner/2023/03/31/45861dfc-346e-4afe-bb35-ff58630df5fa.png);
@@ -35,24 +42,25 @@
     background-size: cover;
     height: 532px;
 }
+
 .text-left {
-    margin-top: 22px;
-    padding-left: 898px;
+    margin-top: 30px;
+    padding-left: 789px;
     display: table;
-    width: 85%;
+    width: 100%;
 }
 .text-left h3 {
-    margin-top: 174px;
+    margin-top: 300px;
+    color: #1c451e;
+}
+.text-left h2 {
+    color: #1c451e;
+    line-height: normal;
 }
 .payouts-gift img {
     width: 100%;
 }
-.box-card {
-    width: 100%;
-    background-color: #e9e5e5;
-    padding: 90px;
-    margin-top: 40px;
-}
+
 .container-fluid.payouts {
     margin-top: 60px;
 }
@@ -70,7 +78,7 @@
     margin-top: 21px;
 }
 .link-img img {
-    width: 65%;
+    width: 80%;
 }
 .container-fluid-app {
     background-color: #ebeaea;
@@ -81,41 +89,43 @@
     margin-top: 117px;
 }
 
-
-.image-rating img {
-    width: 35%;
-}
-.image-rating1 img {
-    width: 100%;
+.image-link img {
+    width: 25%;
 }
 .section {
     margin: 17px;
     padding: 17px;
 }
+
+
 input {
-    border-radius: 17px;
-    font-size: 18px;
+    font-weight: 600;
+    border-radius: 13px;
+    font-size: 17px;
     border: none;
     margin-bottom: 18px;
     margin-top: 24px;
     width: 100%;
-    padding: 16px 30px;
+    padding: 13px 22px;
     background-color: #efefef;
 }
+
 select.link-select {
     border: none;
     background-color: white;
-    margin-left: 17px;
-    font-size: 19px;
-    color: black;
-    font-weight: 500;
+    margin-left: -156px;
+    font-size: 17px;
+    color: #545353;
+    font-weight: 600;
+    margin-top: 25px;
 }
-.navbar1 a {
-    margin-left: 17px;
-    font-size: 19px;
-    color: black;
-    font-weight: 500;
+.links a {
+    font-size: 17px;
+    color: #4a4949;
+    margin-left: 29px;
+    font-weight: 600;
 }
+
 
 .navbar1 h2 {
     color: purple;
@@ -128,13 +138,14 @@ select.link-select {
     margin-top: 36px;
     margin-bottom: 26px;
 }
+
 .store-system h3 {
-    padding: 8px 22px;
+    padding: 9px 22px;
     font-size: 16px;
     margin-left: 19px;
-    background-color: #e7e4e4;
-    border-radius: 12px;
-    color: #f93535;
+    background-color: #f9f7f7;
+    border-radius: 9px;
+    color: #f34949;
 }
 .store-system  h4 {
     margin-top: 21px;
@@ -142,12 +153,13 @@ select.link-select {
     padding: 8px 22px;
     font-size: 15px;
     margin-left: 19px;
-    background-color: #e7e4e4;
-    border-radius: 12px;
+    background-color: #f9f7f7;
+    border-radius: 9px;
     color: green;
 }
 .image-system h2 {
     font-size: 20px;
+    color: #3a1a5f;
 }
 .payout h1 {
     color: #020250;
@@ -156,13 +168,23 @@ select.link-select {
     font-family: sans-serif;
     margin-bottom: 21px;
 }
+
 .lifestyle-system h2 {
-    font-size: 20px;
+    font-size: 19px;
     font-family: sans-serif;
+    color: #3a1a5f;
 }
 .in-store {
     align-items: center;
     display: flex;
+}
+.in-store h3 {
+    color: purple;
+    padding: 7px 14px;
+    border: 1px solid #f37e7e;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-left: 10px;
 }
 .text-center h2 {
     margin-bottom: 30px;
@@ -172,15 +194,15 @@ select.link-select {
     font-size: 33px;
     margin-top: 31px;
 }
+
 .box1 {
     background: white;
     margin-top: 19px;
-    padding: 13px;
-   
+    padding: 14px;
     border: 1px solid #d9d5d5;
-    width: 90%;
+    width: 100%;
     border-radius: 12px;
-    height: 328px;
+    height: 383px;
 }
 .container-fluid-brands {
     background-color: #f5f4f4;
@@ -191,18 +213,29 @@ select.link-select {
 .image1 img {
     width: 100%;
     position: initial;
-    height: 328px;
+    height: 342px;
 }
 .box2{
     margin-top: 19px;
     padding: 13px;
-    width: 90%;
-    
+    width: 90%;  
+}
+.box1 h3 {
+    margin-top: 23px;
+    font-weight: 500;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.box1 h5 {
+    margin-top: 22px;
+    font-size: 16px;
+    color: #f36f86;
 }
 .image2 img {
-    left: 230px;
+    left: 137px;
     position: absolute;
-    bottom: 150px;
+    bottom: 162px;
 }
 
 .notification {
@@ -244,10 +277,12 @@ select.link-select {
 .container-fluid-newbrands {
     background-color: #d7d7d7;
 }
-
+.shadow {
+    margin: 10px;
+}
 .home-text img {
     margin-top: 11px;
-    width: 30%;
+    width: 50%;
     display: flex;
     margin-left: 43px;
 }
@@ -273,10 +308,11 @@ select.link-select {
     font-size: 24px;
     font-family: sans-serif;
 }
+
 .digital-card p {
-    color: #580258;
+    color: #424142;
     font-family: sans-serif;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .digital-card h2 {
@@ -296,17 +332,20 @@ ul.list1 li {
     margin-left: 39px;
     font-size: 20px;
 }
-.reviews {
-    margin-left: -94px;
+
+.reviews h3 {
+    color: #585757;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
 }
 .rating {
-    margin-left: 53px;
+    margin-left: 34px;
     display: flex;
     align-items: center;
 }
-.image-rating {
-    width: 45%;
-}
+
+
 .box1 h3 {
     font-weight: 500;
     color: gray;
@@ -331,9 +370,10 @@ ul.list li {
     list-style-type: none;
     text-decoration: none;
 }
+
 ul.list a {
     font-family: sans-serif;
-    color: #3e013e;
+    color: #4e4d4e;
 }
 .home-text h3 {
     font-weight: 600;
@@ -341,18 +381,21 @@ ul.list a {
     font-size: 22px;
 }
 .text-center1 h2 {
-    color: red;
+    color: purple;
     border-radius: 8px;
-    padding: 12px;
-    border: 1px solid red;
-    font-size: 18px;
+    padding: 13px;
+    border: 1px solid purple;
+    font-size: 17px;
     width: 15%;
 }
 .box-card h2 {
-    font-weight: 500;
+    font-weight: 600;
     font-family: sans-serif;
-    font-size: 23px;
+    font-size: 26px;
+    line-height: 39px;
+    color: #3a1a5f;
 }
+
 .submit1 {
     border: 1px solid grey;
     border-radius: 10px;
@@ -361,9 +404,60 @@ ul.list a {
 .submit-data h4 {
     font-size: 18px;
     border-radius: 9px;
-    padding: 8px 18px;
+    padding: 8px 30px;
     background-color: #b1adad;
 }
+
+.play-store {
+    margin-top: -10px;
+}
+.box-card h3 {
+    font-size: 15px;
+    color: gray;
+}
+.box-card {
+    width: 100%;
+    background-color: #f3f0f0;
+    padding: 68px;
+}
+.reviews h4 {
+    font-weight: 600;
+    color: #0d72af;
+    font-size: 27px;
+    margin-top: -12px;
+}
+.reviews h5 {
+    font-size: 13px;
+    color: gray;
+    margin-top: -9px;
+}
+
+.image-rating1 img {
+    width: 100%;
+}
+.image-rating {
+    width: 48%;
+}
+.image-rating img {
+    width: 38%;
+    margin-left: 28px;
+}
+.reviews {
+    margin-left: -34px;
+}
+.more-details h4 {
+    width: 38%;
+    color: #0561b1;
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.links {
+    margin-top: 25px;
+}
+
+
 @media (max-width:600px){
     .notification {
         background-size: cover;
@@ -372,8 +466,6 @@ ul.list a {
         width: 100%;
     }
     .home-text img {
-       
-        width: 100%;
         display: initial;
         margin-left: 0px;
     }
@@ -389,6 +481,10 @@ ul.list a {
     }
 
 .home-text h3 {
+    margin-left: 0px;
+}
+.image-rating img {
+
     margin-left: 0px;
 }
  
@@ -461,6 +557,9 @@ ul.list a {
     margin: 0px;
   
 }  
-    
+select.link-select {
+    margin-left: 0px;
+  
+} 
 
 }
