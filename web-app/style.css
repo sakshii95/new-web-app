@@ -1,6 +1,7 @@
 .homepage {
     max-width: 1500px;
     margin: auto;
+    display: table;
 }
 i.fa-solid.fa-arrow-right {
     color: purple;
@@ -14,10 +15,7 @@ i.fa-solid.fa-arrow-right {
     display: flex;
 }
 
-.image-section img{
-    width: 100%;
-    border-radius: 13px;
-}
+
 .navbar1 {
     align-items: center;
     display: flex;
@@ -328,6 +326,7 @@ select.link-select {
     color: #424142;
     font-family: sans-serif;
     font-size: 17px;
+    margin-top: 25px;
 }
 
 .digital-card h2 {
@@ -460,6 +459,9 @@ ul.list a {
     width: 29%;
     margin-left: 59px;
 }
+.image-section img {
+    max-width: 100%;
+}
 .digital-card img {
     width: 15%;
 }
@@ -489,7 +491,9 @@ i.fa-solid.fa-star {
     margin-top: -10px;
 }
 
-
+.nav-links {
+    margin-top: 11px;
+}
 @media (max-width:600px){
     .links {
         display: flex;
@@ -555,9 +559,12 @@ i.fa-solid.fa-star {
     .store-system h3 {
         margin-left: 0px;
     }
-    .image-section img {
-        width: 100%;
+    /* .image-section img {
+        max-width: 100%;
         margin-top: 19px;
+    } */
+    .lifestyle-system img {
+        max-width: 100%;
     }
     .text-left {
         margin-top: 22px;
@@ -613,6 +620,10 @@ select.link-select {
 }
 .store-system h4 {
     margin-left: 0px;
+}
+.navbar2 {
+    margin-top: 23px;
+    display: initial;
 }
 
 }
