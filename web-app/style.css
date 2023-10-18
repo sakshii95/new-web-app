@@ -128,7 +128,7 @@ select.link-select {
     font-weight: 600;
     margin-top: 25px;
 }
-.links a {
+.navbar1 a {
     font-size: 17px;
     color: #4a4949;
     margin-left: 29px;
@@ -210,7 +210,6 @@ select.link-select {
     margin-top: 19px;
     padding: 14px;
     border: 1px solid #d9d5d5;
-    width: 100%;
     border-radius: 12px;
  
 }
@@ -222,7 +221,6 @@ select.link-select {
 }
 .image1 img {
     width: 100%;
-    position: initial;
   
 }
 .box2{
@@ -451,16 +449,22 @@ ul.list a {
 
 .image-rating1 img {
     width: 100%;
+    border-radius: 12px;
 }
 .image-rating {
     width: 48%;
+    border-radius: 12px;
 }
 .image-rating img {
     width: 29%;
     margin-left: 59px;
+    border-radius: 12px;
 }
+
+
 .image-section img {
     max-width: 100%;
+    border-radius: 12px;
 }
 .digital-card img {
     width: 15%;
@@ -595,10 +599,7 @@ i.fa-solid.fa-star {
         width: 100%;
         position: initial;
     }
-    .box1 {
-        width: 100%;
-        height: 100%;
-    }
+    
 
     .image2 img {
       
