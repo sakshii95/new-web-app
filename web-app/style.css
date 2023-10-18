@@ -248,6 +248,7 @@ select.link-select {
     left: 177px;
     position: absolute;
     bottom: 102px;
+    width: 13%;
 }
 
 .notification {
@@ -414,11 +415,14 @@ ul.list a {
     border-radius: 10px;
    
 }
+
 .submit-data h4 {
+    width: 35%;
     font-size: 18px;
     border-radius: 9px;
-    padding: 8px 30px;
+    padding: 8px;
     background-color: #b1adad;
+    text-align: center;
 }
 
 .play-store {
@@ -452,9 +456,10 @@ ul.list a {
     width: 48%;
 }
 .image-rating img {
-    width: 38%;
-    margin-left: 28px;
+    width: 29%;
+    margin-left: 59px;
 }
+
 .reviews {
     margin-left: -34px;
 }
@@ -475,13 +480,24 @@ ul.list a {
     margin-bottom: 4px;
 }
 i.fa-solid.fa-star {
-    color: yellow;
+    color: #f3f326;
     font-size: 24px;
     margin-top: -10px;
 }
 
 
 @media (max-width:600px){
+    .links {
+        display: flex;
+        margin-top: 18px;
+        flex-direction: column;
+    }
+
+
+    .links a {
+        margin-left: 0px;
+       
+    }
     .notification {
         background-size: cover;
     }
@@ -561,6 +577,9 @@ i.fa-solid.fa-star {
     .navbar1 {
         display: initial;
     }
+    .navbar2 a {
+        margin-left: 0px;
+    }
     .image1 img {
         width: 100%;
         position: initial;
@@ -571,9 +590,9 @@ i.fa-solid.fa-star {
     }
 
     .image2 img {
-        left: 124px;
-        position: absolute;
-        bottom: 74px;
+      
+        left: 172px;
+        bottom: 92px;
     }
     
 .notification {
