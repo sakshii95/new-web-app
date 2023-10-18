@@ -2,6 +2,17 @@
     max-width: 1500px;
     margin: auto;
 }
+i.fa-solid.fa-arrow-right {
+    color: purple;
+    top: 32px;
+    position: absolute;
+    left: 185px;
+    font-size: 19px;
+}
+.text-center1 {
+    position: relative;
+    display: flex;
+}
 
 .image-section img{
     width: 100%;
@@ -93,8 +104,8 @@
     width: 25%;
 }
 .section {
-    margin: 17px;
-    padding: 17px;
+    margin: 10px;
+    padding: 3px;
 }
 
 
@@ -202,18 +213,18 @@ select.link-select {
     border: 1px solid #d9d5d5;
     width: 100%;
     border-radius: 12px;
-    height: 383px;
+ 
 }
-.container-fluid-brands {
-    background-color: #f5f4f4;
-}
+
+
 .box1 img {
     width: 12%;
+    margin-bottom: 16px;
 }
 .image1 img {
     width: 100%;
     position: initial;
-    height: 342px;
+  
 }
 .box2{
     margin-top: 19px;
@@ -232,10 +243,11 @@ select.link-select {
     font-size: 16px;
     color: #f36f86;
 }
+
 .image2 img {
-    left: 137px;
+    left: 177px;
     position: absolute;
-    bottom: 162px;
+    bottom: 102px;
 }
 
 .notification {
@@ -276,6 +288,7 @@ select.link-select {
 }
 .container-fluid-newbrands {
     background-color: #d7d7d7;
+    margin-top: 82px;
 }
 .shadow {
     margin: 10px;
@@ -292,7 +305,7 @@ select.link-select {
 .card-system h2 {
     padding: 13px;
     font-size: 17px;
-    width: 14%;
+    width: 15%;
     border: 1px solid purple;
     color: purple;
     border-radius: 12px;
@@ -456,6 +469,16 @@ ul.list a {
 .links {
     margin-top: 25px;
 }
+.star {
+    margin-top: 12px;
+    display: flex;
+    margin-bottom: 4px;
+}
+i.fa-solid.fa-star {
+    color: yellow;
+    font-size: 24px;
+    margin-top: -10px;
+}
 
 
 @media (max-width:600px){
@@ -547,11 +570,11 @@ ul.list a {
         height: 100%;
     }
 
-.image2 img {
-    left: 53px;
-    position: absolute;
-    bottom: 150px;
-}
+    .image2 img {
+        left: 124px;
+        position: absolute;
+        bottom: 74px;
+    }
     
 .notification {
     margin: 0px;
