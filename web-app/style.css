@@ -1,8 +1,15 @@
-.homepage {
-    max-width: 1500px;
-    margin: auto;
-    display: table;
+
+
+.shadow {
+  padding: 60px;
+  margin: 10px;
 }
+
+
+
+
+
+
 i.fa-solid.fa-arrow-right {
     color: purple;
     top: 32px;
@@ -87,12 +94,13 @@ i.fa-solid.fa-arrow-right {
     margin-top: 21px;
 }
 .link-img img {
-    width: 80%;
+    width: 50%;
 }
 .container-fluid-app {
     background-color: #ebeaea;
     border-radius: 20px;
     margin-top: 10px;
+    padding: 9px;
 }
 .features {
     margin-top: 117px;
@@ -101,10 +109,10 @@ i.fa-solid.fa-arrow-right {
 .image-link img {
     width: 25%;
 }
-.section {
+/* .section {
     margin: 10px;
     padding: 3px;
-}
+} */
 
 
 input {
@@ -219,10 +227,7 @@ select.link-select {
     width: 12%;
     margin-bottom: 16px;
 }
-.image1 img {
-    width: 100%;
-  
-}
+
 .box2{
     margin-top: 19px;
     padding: 13px;
@@ -288,9 +293,7 @@ select.link-select {
     background-color: #d7d7d7;
     margin-top: 82px;
 }
-.shadow {
-    margin: 10px;
-}
+
 .home-text img {
     margin-top: 11px;
     width: 50%;
@@ -498,7 +501,20 @@ i.fa-solid.fa-star {
 .nav-links {
     margin-top: 11px;
 }
+.image2 img {
+    left: 199px;
+    position: absolute;
+    bottom: 118px;
+    width: 13%;
+}
+.image1 img {
+    width: 100%;
+}
 @media (max-width:600px){
+    .image2 img {
+        left: 176px;
+        bottom: 109px;
+    }
     .links {
         display: flex;
         margin-top: 18px;
@@ -595,17 +611,7 @@ i.fa-solid.fa-star {
     .navbar2 a {
         margin-left: 0px;
     }
-    .image1 img {
-        width: 100%;
-        position: initial;
-    }
-    
 
-    .image2 img {
-      
-        left: 172px;
-        bottom: 92px;
-    }
     
 .notification {
     margin: 0px;
@@ -625,6 +631,12 @@ select.link-select {
 .navbar2 {
     margin-top: 23px;
     display: initial;
+}
+.shadow {
+   padding: 0px;
+}
+.image-section img {
+    margin-top: 12px;
 }
 
 }
