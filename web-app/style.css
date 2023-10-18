@@ -139,7 +139,7 @@ select.link-select {
 .navbar1 a {
     font-size: 17px;
     color: #4a4949;
-    margin-left: 29px;
+    margin-left: 11px;
     font-weight: 600;
 }
 
@@ -159,7 +159,6 @@ select.link-select {
 .store-system h3 {
     padding: 9px 22px;
     font-size: 16px;
-    margin-left: 19px;
     background-color: #f9f7f7;
     border-radius: 9px;
     color: #f34949;
@@ -170,7 +169,6 @@ select.link-select {
     text-align: center;
     padding: 8px 22px;
     font-size: 15px;
-    margin-left: 19px;
     background-color: #f9f7f7;
     border-radius: 9px;
     color: green;
@@ -259,7 +257,6 @@ select.link-select {
     background-image: url(https://cdn.ecomv2.yougotagift.com/images/news-subscription-background.png);
     background-size: 100%;
     margin: 20px;
-    height: 206px;
 }
 .text-brand {
     display: table;
@@ -355,7 +352,7 @@ ul.list1 li {
     font-weight: 600;
 }
 .rating {
-    margin-left: 34px;
+    /* margin-left: 34px; */
     display: flex;
     align-items: center;
 }
@@ -472,10 +469,10 @@ ul.list a {
 .digital-card img {
     width: 15%;
 }
-
+/* 
 .reviews {
     margin-left: -34px;
-}
+} */
 .more-details h4 {
     width: 38%;
     color: #0561b1;
@@ -528,6 +525,7 @@ i.fa-solid.fa-star {
     }
     .notification {
         background-size: cover;
+        position: initial;
     }
     .text-center1 h2 {
         width: 100%;
@@ -555,9 +553,7 @@ i.fa-solid.fa-star {
     margin-left: 0px;
 }
  
-    .notification {
-        height: 100%;
-    }
+  
     .text-brand h2 {
         font-size: 20px;
     }
@@ -637,6 +633,16 @@ select.link-select {
 }
 .image-section img {
     margin-top: 12px;
+}
+.scan-link {
+    display: initial;
+}
+.play-store img {
+    display: initial;
+   
+}
+.in-store {
+    display: initial;
 }
 
 }
