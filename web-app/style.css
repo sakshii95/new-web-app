@@ -157,6 +157,7 @@ select.link-select {
     background-color: #f9f7f7;
     border-radius: 9px;
     color: #f34949;
+    text-align: center;
 }
 .store-system  h4 {
     margin-top: 21px;
@@ -459,6 +460,9 @@ ul.list a {
     width: 29%;
     margin-left: 59px;
 }
+.digital-card img {
+    width: 15%;
+}
 
 .reviews {
     margin-left: -34px;
@@ -603,5 +607,12 @@ select.link-select {
     margin-left: 0px;
   
 } 
+.rating {
+    margin-left: 0px;
+  
+}
+.store-system h4 {
+    margin-left: 0px;
+}
 
 }
