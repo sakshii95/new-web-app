@@ -24,23 +24,20 @@
     margin-top: 23px;
 }
 .navbar1 img {
-    max-width: 10%;
+    max-width: 15%;
 }
-
-
 
 
 i.fa-solid.fa-arrow-right {
     color: purple;
-    top: 32px;
-    position: absolute;
-    left: 185px;
+    font-size: 19px;
+    margin-left: 21px;
+    margin-top: 6px;
+}
+.text-center1 h2 {
     font-size: 19px;
 }
-.text-center1 {
-    position: relative;
-    display: flex;
-}
+
 
 
 .navbar2 {
@@ -59,44 +56,47 @@ i.fa-solid.fa-arrow-right {
     display: flex;
 }
 .image-system img{
-    width: 100%;
+   max-width:  100%;
     border-radius: 10px;
 }
 .lifestyle-system img {
-    width: 100%;
+    max-width: 100%;
     border: 1px solid #e1dddd;
     border-radius: 10px;
 }
+
 .sticker-photo {
     background-image: url(https://cdn.stores.ecom.yougotagift.com/media/images/configurations/banner/2023/03/31/45861dfc-346e-4afe-bb35-ff58630df5fa.png);
-    max-width: 100%;
-    background-size: cover;
-    height: 532px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.text-left h3 {
+    margin-top: 200px;
+    color: #1c451e;
+    margin-left: 600px;
 }
 
 .text-left {
-    margin-top: 30px;
-    padding-left: 789px;
+    margin: auto;
     display: table;
-    width: 100%;
+    max-width: 75%;
+  
 }
-.text-left h3 {
-    margin-top: 300px;
-    color: #1c451e;
-}
+
 .text-left h2 {
     color: #1c451e;
     line-height: normal;
+    margin-left: 600px;
 }
 .payouts-gift img {
-    width: 100%;
+   max-width: 100%;
 }
 
 .container-fluid.payouts {
     margin-top: 60px;
 }
 .categories img {
-    width: 100%;
+   max-width:100%;
 }
 .scan-link {
     align-items: center;
@@ -105,11 +105,11 @@ i.fa-solid.fa-arrow-right {
 }
 .play-store img {
     display: flex;
-    width: 50%;
+   max-width:  50%;
     margin-top: 21px;
 }
 .link-img img {
-    width: 50%;
+    max-width: 50%;
 }
 .container-fluid-app {
     background-color: #ebeaea;
@@ -208,14 +208,14 @@ select.link-select {
     font-size: 15px;
     border-radius: 9px;
 }
-.text-center h2 {
+/* .text-center h2 {
     margin-bottom: 30px;
     font-weight: 700;
     font-family: sans-serif;
     color: #040446e6;
     font-size: 33px;
     margin-top: 31px;
-}
+} */
 
 .box1 {
     background: white;
@@ -228,14 +228,14 @@ select.link-select {
 
 
 .box1 img {
-    width: 12%;
+    max-width: 12%;
     margin-bottom: 16px;
 }
 
 .box2{
     margin-top: 19px;
     padding: 13px;
-    width: 90%;  
+   max-width: 100%;  
 }
 .box1 h3 {
     margin-top: 23px;
@@ -254,7 +254,7 @@ select.link-select {
     left: 177px;
     position: absolute;
     bottom: 102px;
-    width: 13%;
+    max-width: 13%;
 }
 
 .notification {
@@ -290,7 +290,7 @@ select.link-select {
 }
 .footer-image1 img {
     margin-top: 26px;
-    width: 21%;
+    max-width: 21%;
 }
 .container-fluid-newbrands {
     background-color: #d7d7d7;
@@ -299,20 +299,20 @@ select.link-select {
 
 .home-text img {
     margin-top: 11px;
-    width: 50%;
+   max-width: 50%;
  
 }
 .card-system input {
-    width: 50%;
+    max-width: 50%;
 }
-.card-system h2 {
+/* .card-system h2 {
     padding: 13px;
     font-size: 17px;
-    width: 15%;
+   max-width: 15%;
     border: 1px solid purple;
     color: purple;
     border-radius: 12px;
-}
+} */
 
 .box1 p {
     color: gray;
@@ -363,7 +363,7 @@ select.link-select {
     color: #4545f9;
 }
 .footer-image1 img {
-    width: 30%;
+    max-width: 30%;
 }
 .container-fluid-footer {
     margin: 30px;
@@ -386,21 +386,25 @@ ul.list a {
     font-family: sans-serif;
     font-size: 22px;
 }
-.text-center1 h2 {
+
+
+.text-center1 {
     color: purple;
     border-radius: 8px;
-    padding: 13px;
     border: 1px solid purple;
     font-size: 17px;
-    width: 15%;
+    display: flex;
+    align-items: center;
+    max-width: 15%;
+    padding: 5px;
 }
-.box-card h2 {
+/* .box-card h2 {
     font-weight: 600;
     font-family: sans-serif;
     font-size: 26px;
     line-height: 39px;
     color: #3a1a5f;
-}
+} */
 
 .submit1 {
     border: 1px solid grey;
@@ -409,7 +413,7 @@ ul.list a {
 }
 
 .submit-data h4 {
-    width: 35%;
+    max-width: 35%;
     font-size: 18px;
     border-radius: 9px;
     padding: 8px;
@@ -425,7 +429,7 @@ ul.list a {
     color: gray;
 }
 .box-card {
-    width: 100%;
+    max-width: 100%;
     background-color: #f3f0f0;
     padding: 68px;
 }
@@ -442,15 +446,15 @@ ul.list a {
 }
 
 .image-rating1 img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 12px;
 }
 .image-rating {
-    width: 48%;
+    max-width: 50%;
     border-radius: 12px;
 }
 .image-rating img {
-    width: 29%;
+    max-width: 30%;
     margin-left: 59px;
     border-radius: 12px;
 }
@@ -461,14 +465,11 @@ ul.list a {
     border-radius: 12px;
 }
 .digital-card img {
-    width: 15%;
+   max-width: 15%;
 }
-/* 
-.reviews {
-    margin-left: -34px;
-} */
+
 .more-details h4 {
-    width: 38%;
+   max-width: 38%;
     color: #0561b1;
     padding: 12px;
     background-color: white;
@@ -496,10 +497,10 @@ i.fa-solid.fa-star {
     left: 199px;
     position: absolute;
     bottom: 118px;
-    width: 13%;
+    max-width: 13%;
 }
 .image1 img {
-    width: 100%;
+    max-width: 100%;
 }
  @media (max-width:600px){
     .image2 img {
@@ -520,9 +521,9 @@ i.fa-solid.fa-star {
         margin-left: 0px;
     }
     
-    .text-center1 h2 {
+    /* .text-center1 h2 {
         width: 100%;
-    }
+    } */
   
     .rating {
         margin-left: 0px;
@@ -551,10 +552,7 @@ i.fa-solid.fa-star {
     }
     .box1 h2 {
         font-size: 18px;
-    }
-    .card-system h2 {
-        width: 100%;
-       
+     
     }
     .card-system input {
         width: 100%;
@@ -563,11 +561,10 @@ i.fa-solid.fa-star {
     .lifestyle-system img {
         max-width: 100%;
     }
-    .text-left {
+    /* .text-left {
         margin-top: 22px;
-        padding-left: 0px;
         width: 100%;
-    }
+    } */
     .features {
         margin-top: 10px;
     }
@@ -578,10 +575,7 @@ i.fa-solid.fa-star {
         padding: 12px;
        
     }
-    .sticker-photo {
-       
-        height: 100%;
-    }
+   
      
     .navbar2 a {
         margin-left: 0px;
@@ -630,7 +624,21 @@ ul.list li {
     margin-left: 0px;
 }
 
-
+i.fa-solid.fa-arrow-right {
+    margin-left: 0px;
+}
+.text-left h3 {
+    margin-left: 0px;
+}
+.text-left h2 {
+    margin-left: 0px;
+}
+.text-center1 {
+    max-width: 100%;
+}
+.sticker-photo {
+  margin-top: 10px;
+}
 
 } 
 
