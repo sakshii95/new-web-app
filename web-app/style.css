@@ -1,8 +1,11 @@
 
 
 .shadow {
-  padding: 60px;
   margin: 10px;
+}
+.homepage {
+    margin: auto;
+    max-width: 1500px;
 }
 
 .container-fluid-nav {
@@ -24,7 +27,7 @@
     margin-top: 23px;
 }
 .navbar1 img {
-    max-width: 15%;
+    width: 15%;
 }
 
 
@@ -56,11 +59,11 @@ i.fa-solid.fa-arrow-right {
     display: flex;
 }
 .image-system img{
-   max-width:  100%;
+   width:  100%;
     border-radius: 10px;
 }
 .lifestyle-system img {
-    max-width: 100%;
+    width: 100%;
     border: 1px solid #e1dddd;
     border-radius: 10px;
 }
@@ -73,30 +76,30 @@ i.fa-solid.fa-arrow-right {
 .text-left h3 {
     margin-top: 200px;
     color: #1c451e;
-    margin-left: 600px;
+    /* margin-left: 600px; */
 }
 
 .text-left {
     margin: auto;
     display: table;
-    max-width: 75%;
+    width: 75%;
   
 }
 
 .text-left h2 {
     color: #1c451e;
     line-height: normal;
-    margin-left: 600px;
+    /* margin-left: 600px; */
 }
 .payouts-gift img {
-   max-width: 100%;
+   width: 100%;
 }
 
 .container-fluid.payouts {
     margin-top: 60px;
 }
 .categories img {
-   max-width:100%;
+   width:100%;
 }
 .scan-link {
     align-items: center;
@@ -105,11 +108,11 @@ i.fa-solid.fa-arrow-right {
 }
 .play-store img {
     display: flex;
-   max-width:  50%;
+   width:  50%;
     margin-top: 21px;
 }
 .link-img img {
-    max-width: 50%;
+    width: 50%;
 }
 .container-fluid-app {
     background-color: #ebeaea;
@@ -220,7 +223,7 @@ select.link-select {
 .box1 {
     background: white;
     margin-top: 19px;
-    padding: 14px;
+    padding: 8px;
     border: 1px solid #d9d5d5;
     border-radius: 12px;
  
@@ -228,14 +231,14 @@ select.link-select {
 
 
 .box1 img {
-    max-width: 12%;
+    width: 12%;
     margin-bottom: 16px;
 }
 
 .box2{
     margin-top: 19px;
     padding: 13px;
-   max-width: 100%;  
+   width: 100%;  
 }
 .box1 h3 {
     margin-top: 23px;
@@ -290,7 +293,7 @@ select.link-select {
 }
 .footer-image1 img {
     margin-top: 26px;
-    max-width: 21%;
+    width: 21%;
 }
 .container-fluid-newbrands {
     background-color: #d7d7d7;
@@ -299,11 +302,11 @@ select.link-select {
 
 .home-text img {
     margin-top: 11px;
-   max-width: 50%;
+   width: 50%;
  
 }
 .card-system input {
-    max-width: 50%;
+    width: 50%;
 }
 /* .card-system h2 {
     padding: 13px;
@@ -429,9 +432,10 @@ ul.list a {
     color: gray;
 }
 .box-card {
-    max-width: 100%;
+    width: 100%;
     background-color: #f3f0f0;
-    padding: 68px;
+    padding: 5px;
+ 
 }
 .reviews h4 {
     font-weight: 600;
@@ -446,16 +450,16 @@ ul.list a {
 }
 
 .image-rating1 img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 12px;
 }
 .image-rating {
-    max-width: 50%;
+    width: 50%;
     border-radius: 12px;
 }
 .image-rating img {
-    max-width: 30%;
-    margin-left: 59px;
+    width: 30%;
+    /* margin-left: 59px; */
     border-radius: 12px;
 }
 
@@ -465,11 +469,11 @@ ul.list a {
     border-radius: 12px;
 }
 .digital-card img {
-   max-width: 15%;
+   width: 15%;
 }
 
 .more-details h4 {
-   max-width: 38%;
+   width: 38%;
     color: #0561b1;
     padding: 12px;
     background-color: white;
@@ -497,10 +501,10 @@ i.fa-solid.fa-star {
     left: 199px;
     position: absolute;
     bottom: 118px;
-    max-width: 13%;
+    width: 13%;
 }
 .image1 img {
-    max-width: 100%;
+    width: 100%;
 }
  @media (max-width:600px){
     .image2 img {
@@ -508,8 +512,6 @@ i.fa-solid.fa-star {
         bottom: 109px;
     }
     .links {
-        display: flex;
-        margin-top: 18px;
         flex-direction: column;
     }
     .navbar1 {
@@ -529,9 +531,7 @@ i.fa-solid.fa-star {
         margin-left: 0px;
       
     }
-    .reviews {
-        margin-left: 0px;
-    }
+  
     .home-text img {
         margin-left: 0px;
     }
@@ -539,10 +539,7 @@ i.fa-solid.fa-star {
 .home-text h3 {
     margin-left: 0px;
 }
-.image-rating img {
 
-    margin-left: 0px;
-}
     .text-brand h2 {
         font-size: 20px;
     }
@@ -561,22 +558,13 @@ i.fa-solid.fa-star {
     .lifestyle-system img {
         max-width: 100%;
     }
-    /* .text-left {
-        margin-top: 22px;
-        width: 100%;
-    } */
+    
     .features {
         margin-top: 10px;
     }
     .store-system {
         display: initial;
-    }
-    .box-card {
-        padding: 12px;
-       
-    }
-   
-     
+    }  
     .navbar2 a {
         margin-left: 0px;
     }
@@ -613,10 +601,7 @@ select.link-select {
 .scan-link {
     display: initial;
 }
-.play-store img {
-    display: initial;
-   
-}
+
 .in-store {
     display: initial;
 }
@@ -638,6 +623,52 @@ i.fa-solid.fa-arrow-right {
 }
 .sticker-photo {
   margin-top: 10px;
+}
+.image-system img{
+    max-width:  100%;
+ }
+ .lifestyle-system img {
+    max-width: 100%;
+}
+.text-left {
+    max-width: 100%;
+  
+}
+.payouts-gift img {
+    max-width: 100%;
+ }
+ 
+ .categories img {
+   max-width: 100%;
+ }
+ .play-store img {
+  max-width:  100%;
+  display: initial;
+}
+
+.link-img img {
+    max-width: 50%;
+}
+.box2{
+   max-width: 100%;  
+}
+.image1 img {
+    max-width: 100%;
+}
+.home-text img {
+   max-width: 100%;
+ 
+}
+.card-system input {
+    max-width: 100%;
+}
+.image-rating1 img {
+    max-width: 100%;
+   
+}
+.box-card {
+    max-width: 100%;
+ 
 }
 
 } 
