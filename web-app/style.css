@@ -5,7 +5,27 @@
   margin: 10px;
 }
 
+.container-fluid-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 
+.navbar1 {
+    align-items: center;
+    display: flex;
+    margin-top: 29px;
+}
+.navbar1 a {
+    font-size: 17px;
+    color: #4a4949;
+    margin-left: 17px;
+    font-weight: 600;
+    margin-top: 23px;
+}
+.navbar1 img {
+    max-width: 10%;
+}
 
 
 
@@ -22,11 +42,6 @@ i.fa-solid.fa-arrow-right {
     display: flex;
 }
 
-
-.navbar1 {
-    align-items: center;
-    display: flex;
-}
 
 .navbar2 {
     margin-top: 23px;
@@ -106,14 +121,6 @@ i.fa-solid.fa-arrow-right {
     margin-top: 117px;
 }
 
-.image-link img {
-    width: 25%;
-}
-/* .section {
-    margin: 10px;
-    padding: 3px;
-} */
-
 
 input {
     font-weight: 600;
@@ -130,11 +137,11 @@ input {
 select.link-select {
     border: none;
     background-color: white;
-    margin-left: -156px;
     font-size: 17px;
     color: #545353;
     font-weight: 600;
     margin-top: 25px;
+    margin-left: 30px;
 }
 .navbar1 a {
     font-size: 17px;
@@ -494,7 +501,7 @@ i.fa-solid.fa-star {
 .image1 img {
     width: 100%;
 }
-@media (max-width:600px){
+ @media (max-width:600px){
     .image2 img {
         left: 176px;
         bottom: 109px;
@@ -504,16 +511,15 @@ i.fa-solid.fa-star {
         margin-top: 18px;
         flex-direction: column;
     }
-
+    .navbar1 {
+        flex-direction: column;
+       
+    }
 
     .links a {
         margin-left: 0px;
-       
     }
-    /* .notification {
-        background-size: cover;
-        position: initial;
-    } */
+    
     .text-center1 h2 {
         width: 100%;
     }
@@ -576,22 +582,23 @@ i.fa-solid.fa-star {
        
         height: 100%;
     }
-    .navbar1 {
-        display: initial;
-    }
+     
     .navbar2 a {
         margin-left: 0px;
     }
 
-    
+    .container-fluid-nav {
+        display: initial;
+        
+    }
 .notification {
     margin: 0px;
-  
+  position: initial;
 }  
 select.link-select {
     margin-left: 0px;
-  
-} 
+}
+
 .rating {
     margin-left: 0px;
   
@@ -623,4 +630,26 @@ ul.list li {
     margin-left: 0px;
 }
 
-}
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
