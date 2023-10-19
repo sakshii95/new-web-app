@@ -1,5 +1,7 @@
 
-
+img{
+    max-width: 100%;
+}
 .shadow {
   margin: 10px;
 }
@@ -347,7 +349,7 @@ select.link-select {
     font-weight: 600;
 }
 .rating {
-    /* margin-left: 34px; */
+ 
     display: flex;
     align-items: center;
 }
@@ -437,6 +439,9 @@ ul.list a {
     padding: 5px;
  
 }
+.reviews {
+    margin-left: -111px;
+}
 .reviews h4 {
     font-weight: 600;
     color: #0d72af;
@@ -450,7 +455,7 @@ ul.list a {
 }
 
 .image-rating1 img {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 12px;
 }
 .image-rating {
@@ -662,13 +667,13 @@ i.fa-solid.fa-arrow-right {
 .card-system input {
     max-width: 100%;
 }
-.image-rating1 img {
-    max-width: 100%;
-   
-}
+
 .box-card {
     max-width: 100%;
  
+}
+.reviews {
+    margin-left: 0px;
 }
 
 } 
