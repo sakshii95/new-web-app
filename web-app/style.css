@@ -1,61 +1,75 @@
-
-img{
-    max-width: 100%;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
+
 .shadow {
-  margin: 10px;
+    margin: 10px;
+    overflow: hidden;
 }
 .homepage {
     margin: auto;
     max-width: 1500px;
 }
-
-.container-fluid-nav {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+label.logo img {
+    width: 25%;
+}
+a.navbar-brand img {
+    width: 25%;
+}
+button.navbar-toggler {
+    float: right;
 }
 
-.navbar1 {
-    align-items: center;
-    display: flex;
-    margin-top: 29px;
+nav ul {
+    float: right;
+    list-style-type: none;
 }
-.navbar1 a {
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a{
+  
     font-size: 17px;
-    color: #4a4949;
-    margin-left: 17px;
-    font-weight: 600;
-    margin-top: 23px;
+    color: rgb(36, 35, 35);
+    margin-left: 15px;
+    text-decoration: none;
 }
-.navbar1 img {
-    width: 15%;
+ul.navbar-nav {
+    margin-left: 55px;
+    margin-top: 30px;
 }
+#checkbtn{
+float: right;
+line-height: 80px;
+margin-right: 10px;
+font-size: 30px;
+}
+#check{
+    display: none;
+}
+
+
+
+
+
 
 
 i.fa-solid.fa-arrow-right {
     color: purple;
     font-size: 19px;
-    margin-left: 21px;
+    margin-left: 20px;
     margin-top: 6px;
 }
 .text-center1 h2 {
     font-size: 19px;
 }
-
-
-
-.navbar2 {
-    margin-top: 23px;
-    display: flex;
-}
-.navbar2 a {
-    font-size: 17px;
-    margin-left: 19px;
-    color: #4a4848;
-}
-
-
 .store-system {
     align-items: center;
     display: flex;
@@ -70,15 +84,17 @@ i.fa-solid.fa-arrow-right {
     border-radius: 10px;
 }
 
-.sticker-photo {
+
+.stickerphoto {
     background-image: url(https://cdn.stores.ecom.yougotagift.com/media/images/configurations/banner/2023/03/31/45861dfc-346e-4afe-bb35-ff58630df5fa.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 76%;
 }
 .text-left h3 {
     margin-top: 200px;
     color: #1c451e;
-    /* margin-left: 600px; */
+    margin-left: 600px;
 }
 
 .text-left {
@@ -91,7 +107,7 @@ i.fa-solid.fa-arrow-right {
 .text-left h2 {
     color: #1c451e;
     line-height: normal;
-    /* margin-left: 600px; */
+    margin-left: 600px;
 }
 .payouts-gift img {
    width: 100%;
@@ -113,10 +129,15 @@ i.fa-solid.fa-arrow-right {
    width:  50%;
     margin-top: 21px;
 }
+
 .link-img img {
-    width: 50%;
+    width: 70%;
 }
-.container-fluid-app {
+
+
+
+
+.container-fluid.app {
     background-color: #ebeaea;
     border-radius: 20px;
     margin-top: 10px;
@@ -148,17 +169,7 @@ select.link-select {
     margin-top: 25px;
     margin-left: 30px;
 }
-.navbar1 a {
-    font-size: 17px;
-    color: #4a4949;
-    margin-left: 11px;
-    font-weight: 600;
-}
 
-
-.navbar1 h2 {
-    color: purple;
-}
 .store-system h1 {
     font-family: sans-serif;
     color: #600360;
@@ -213,14 +224,7 @@ select.link-select {
     font-size: 15px;
     border-radius: 9px;
 }
-/* .text-center h2 {
-    margin-bottom: 30px;
-    font-weight: 700;
-    font-family: sans-serif;
-    color: #040446e6;
-    font-size: 33px;
-    margin-top: 31px;
-} */
+
 
 .box1 {
     background: white;
@@ -262,12 +266,17 @@ select.link-select {
     max-width: 13%;
 }
 
+
 .notification {
-    position: relative;
-    background-repeat: no-repeat;
     background-image: url(https://cdn.ecomv2.yougotagift.com/images/news-subscription-background.png);
-    background-size: 100% 100%;
-    margin: 20px;
+    background-size: cover;
+    margin: 25px;
+    max-width: 100%;
+}
+.container-fluid.newbrands {
+    margin-bottom: 70px;
+    background-color: #e3e0e0;
+    margin-top: 47px;
 }
 .text-brand {
     display: table;
@@ -310,14 +319,7 @@ select.link-select {
 .card-system input {
     width: 50%;
 }
-/* .card-system h2 {
-    padding: 13px;
-    font-size: 17px;
-   max-width: 15%;
-    border: 1px solid purple;
-    color: purple;
-    border-radius: 12px;
-} */
+
 
 .box1 p {
     color: gray;
@@ -402,6 +404,7 @@ ul.list a {
     align-items: center;
     max-width: 15%;
     padding: 5px;
+    margin-bottom: 25px;
 }
 /* .box-card h2 {
     font-weight: 600;
@@ -433,12 +436,7 @@ ul.list a {
     font-size: 15px;
     color: gray;
 }
-.box-card {
-    width: 100%;
-    background-color: #f3f0f0;
-    padding: 5px;
- 
-}
+
 .reviews {
     margin-left: -111px;
 }
@@ -511,18 +509,19 @@ i.fa-solid.fa-star {
 .image1 img {
     width: 100%;
 }
+.box-card {
+    margin-top: 43px;
+    width: 100%;
+    background-color: #f3f0f0;
+    padding: 42px 38px;
+}
  @media (max-width:600px){
     .image2 img {
         left: 176px;
         bottom: 109px;
     }
-    .links {
-        flex-direction: column;
-    }
-    .navbar1 {
-        flex-direction: column;
-       
-    }
+    
+   
 
     .links a {
         margin-left: 0px;
@@ -548,10 +547,7 @@ i.fa-solid.fa-star {
     .text-brand h2 {
         font-size: 20px;
     }
-    .submit-data {
-        display: initial;
-
-    }
+    
     .box1 h2 {
         font-size: 18px;
      
@@ -570,18 +566,13 @@ i.fa-solid.fa-star {
     .store-system {
         display: initial;
     }  
-    .navbar2 a {
-        margin-left: 0px;
-    }
+   
 
     .container-fluid-nav {
         display: initial;
         
     }
-.notification {
-    margin: 0px;
-  position: initial;
-}  
+
 select.link-select {
     margin-left: 0px;
 }
@@ -593,19 +584,12 @@ select.link-select {
 .store-system h4 {
     margin-left: 0px;
 }
-.navbar2 {
-    margin-top: 23px;
-    display: initial;
-}
-.shadow {
-   padding: 0px;
-}
+
+
 .image-section img {
     margin-top: 12px;
 }
-.scan-link {
-    display: initial;
-}
+
 
 .in-store {
     display: initial;
@@ -614,9 +598,6 @@ ul.list li {
     margin-left: 0px;
 }
 
-i.fa-solid.fa-arrow-right {
-    margin-left: 0px;
-}
 .text-left h3 {
     margin-left: 0px;
 }
@@ -652,7 +633,7 @@ i.fa-solid.fa-arrow-right {
 }
 
 .link-img img {
-    max-width: 50%;
+    max-width: 100%;
 }
 .box2{
    max-width: 100%;  
@@ -675,7 +656,21 @@ i.fa-solid.fa-arrow-right {
 .reviews {
     margin-left: 0px;
 }
-
+.notification {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+}
+#checkbtn{
+    display: block;
+}
+nav ul{
+    width: 100%;
+}
+ul.navbar-nav {
+    margin-left: 0px;
+   
+}
 } 
 
 
